@@ -9,6 +9,21 @@
 <body>
 
     <!-- HTML för att implementera kraven A-E -->
+  <!--  <p id="myCart"> My cart</p> -->
+ <p id="lagerstatus"> </p>
+
+  <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#" id="hide">Checkout</a><span></span></li>
+        <button id="clearLocalS" onclick="clearLocalS()">Clear cart</button>
+    </ul>
+  </nav>
+    <section id="myFullProductList"></section>
+    <myChekout id="chekoutSection">
+      <p> Chekout </p>
+    </myChekout>
+
 
     <!-- Scripts -->
     <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
